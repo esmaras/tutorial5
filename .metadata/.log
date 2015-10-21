@@ -1,0 +1,121 @@
+!SESSION 2015-10-21 16:58:14.400 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/shark89fish/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data /Users/shark89fish/projects_461L/tutorial5 -product org.eclipse.epp.package.java.product -keyring /Users/shark89fish/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-10-21 16:58:21.807
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2015-10-21 16:58:50.800
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.9.25
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2015-10-21 16:58:51.135
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle_2.6.0
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:12.882
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY org.tigris.subversion.clientadapter.javahl 1 0 2015-10-21 17:00:12.988
+!MESSAGE Failed to load JavaHL Library.
+These are the errors that were encountered:
+no libsvnjavahl-1 in java.library.path
+no svnjavahl-1 in java.library.path
+no svnjavahl in java.library.path
+java.library.path = /Users/shark89fish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2015-10-21 17:00:19.372
+!MESSAGE Could not auto-share project hueSlider
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'hueSlider'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2015-10-21 17:00:19.374
+!MESSAGE Provided SVN information does not match that on disk for project 'hueSlider'.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-10-21 17:00:19.655
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:20.617
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:21.186
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:21.223
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:21.243
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:21.262
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:21.281
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:21.299
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2015-10-21 17:00:24.353
+!MESSAGE Datanucleus enhancer terminated with exit code 1.
+Navigate to the console view for "Datanucleus Enhancer" for more information
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:00:28.733
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2015-10-21 17:01:40.502
+!MESSAGE Datanucleus enhancer terminated with exit code 1.
+Navigate to the console view for "Datanucleus Enhancer" for more information
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2015-10-21 17:02:08.154
+!MESSAGE Datanucleus enhancer terminated with exit code 1.
+Navigate to the console view for "Datanucleus Enhancer" for more information
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.753
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.760
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.765
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.771
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.780
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.787
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.793
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.799
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.806
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:05.812
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2015-10-21 17:04:05.905
+!MESSAGE Could not auto-share project hueSlider
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'hueSlider'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2015-10-21 17:04:05.905
+!MESSAGE Provided SVN information does not match that on disk for project 'hueSlider'.
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2015-10-21 17:04:06.339
+!MESSAGE Could not check whether the launch configuration "hueSlider" needs the -XstartOnFirstThread argument, assuming it does
